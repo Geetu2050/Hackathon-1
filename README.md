@@ -56,4 +56,121 @@ get_job_info – Retrieve job details from blockchain
 
 Wallet Connection Flow
 
-Connect Wallet – Click "Connect Wal
+Connect Wallet – Click "Connect Wallet
+
+projectfl/
+├── frontend/          # React frontend
+│   ├── src/
+│   │   ├── components/  # Reusable UI components
+│   │   ├── contexts/    # Theme, Auth, Wallet contexts
+│   │   ├── data/        # Mock data, interfaces
+│   │   ├── pages/       # Pages
+│   │   ├── utils/       # Utility functions, Aptos client
+│   │   └── main.tsx
+├── contract/           # Aptos Move smart contracts
+│   └── sources/
+│       └── job_escrow.move
+├── scripts/            # Deployment scripts
+└── package.json
+🎯 Key Components
+
+WalletConnect – Wallet connection & management
+
+SmartContractJobForm – Create blockchain-powered jobs
+
+JobCard – Job information display
+
+Layout – App layout & navigation
+
+aptosClient.ts – Blockchain client functions
+
+🌐 Deployment
+Frontend
+
+Vercel (recommended)
+
+Netlify
+
+GitHub Pages
+
+Firebase Hosting
+
+# Compile
+aptos move compile
+
+# Deploy
+aptos move publish
+
+# Update contract address in frontend/src/utils/aptosClient.ts
+
+🔒 Security
+
+Secure private key management
+
+Transaction validation & error handling
+
+Escrow-based payments
+
+Strong input sanitization
+
+📱 Responsive Design
+
+Optimized for:
+
+Desktop – Full feature set
+
+Tablet – Touch-friendly layouts
+
+Mobile – Mobile-first UI
+
+🎨 Customization
+
+TailwindCSS utility-first styling
+
+Custom CSS variables for theming
+
+Environment variables for API & network configs
+
+🤝 Contributing
+
+Fork the repo
+
+Create a feature branch
+
+Commit changes
+
+Add tests if applicable
+
+Submit a PR
+
+📄 License
+
+Licensed under the Apache 2.0 License.
+
+🆘 Support
+
+Check documentation
+
+Review code examples
+
+Open a GitHub issue
+
+🔮 Future Enhancements
+
+Multi-chain support
+
+Milestone-based escrow
+
+Dispute resolution system
+
+Traditional payment method integration
+
+Mobile app
+
+AI-powered job matching
+
+Team Members:
+1.Geetham Venkata Siva Sai P-geetamvenkatasiva@gmail.com
+2.B.Chaitanya Venkata-chaitanyavenkat24@gmail.com
+3.K.Sankar Narayana-ss7272717@gmail.com
+
