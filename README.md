@@ -170,6 +170,7 @@ Mobile app
 AI-powered job matching
 
 Team Members:
+
 1.Geetham Venkata Siva Sai P-geetamvenkatasiva@gmail.com
 
 2.B.Chaitanya Venkata-chaitanyavenkat24@gmail.com
