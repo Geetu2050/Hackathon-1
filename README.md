@@ -33,7 +33,7 @@ A modern, responsive freelance marketplace built with **React**, **TypeScript**,
 - Aptos CLI (for smart contract deployment)
 
 ### Installation
-```bash
+
 # Clone the repository
 git clone <your-repo-url>
 cd projectfl
@@ -43,3 +43,17 @@ npm install
 
 # Start the development server
 npm run dev
+🔧 Smart Contract Integration
+Smart Contract Functions
+
+Integrated with JobEscrow smart contract:
+
+create_job – Create a new job with escrow payment
+
+complete_job – Mark job as complete and release escrow
+
+get_job_info – Retrieve job details from blockchain
+
+Wallet Connection Flow
+
+Connect Wallet – Click "Connect Wal
